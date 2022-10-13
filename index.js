@@ -13,6 +13,6 @@ mongoose.connect(uri).then(() => {
 // server
 const port = process.env.PORT || 5000;
 const crypto = require("crypto");
-// app.listen(port, () => {
-//   console.log(`http://localhost:${port}`.yellow.bold);
-// });
+app.listen(port, () => {
+  console.log(`http://localhost:${port}`.yellow.bold);
+});
