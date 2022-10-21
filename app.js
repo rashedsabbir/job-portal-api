@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-//middlewares
+//middleware
 app.use(express.json());
 app.use(cors());
 
