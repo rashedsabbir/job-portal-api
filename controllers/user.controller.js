@@ -3,7 +3,7 @@ const {
     verifyEmailServices,
     findUserByEmail,
   } = require("../services/user.services");
-  const sendEmail = require("../utils/email");
+//   const sendEmail = require("../utils/email");
   const generateToken = require("../utils/token");
   
   const signupUser = async (req, res, next) => {
@@ -16,11 +16,11 @@ const {
         req.originalUrl
       }/confirmation/${token}`;
   
-      const emailBody = `
-      <h3>Hello ${user?.name}</h3>
-      <p>Please Verify Your Account</p>
-      <a href=${emailButtonLink}>Click Here</a>
-      `;
+    //   const emailBody = `
+    //   <h3>Hello ${user?.name}</h3>
+    //   <p>Please Verify Your Account</p>
+    //   <a href=${emailButtonLink}>Click Here</a>
+    //   `;
       // http://localhost:7000/user/signup/confirmation/c33af0cdb91ae29cbc7f6568ca6690e12857ff03104acf8d5b272ba2b836df95
       console.log(emailButtonLink);
       // const email = await sendEmail(user?.email, "verification email", emailBody);
