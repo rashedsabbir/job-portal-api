@@ -22,7 +22,7 @@ Authorize the route to check if this job is created by the hiring manager who is
 <li><b>PATCH</b> /jobs/:id Update a job</li>
 </ol>
 
-Candidate routes
+### Candidate routes
 GET /jobs Get all Jobs
 must be able to filter jobs by location, job type, salary range(BONUS)
 Must be able to sort jobs(BONUS)
