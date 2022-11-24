@@ -34,23 +34,23 @@ Can’t apply after deadline
 If already applied, then can’t apply again
 Can upload a resume(pdf)(BONUS)
 
-Auth routes
+### Auth routes
 POST /user/signup Signup/Register
 POST /user/login Login
 Must generate and send a token as response
 GET /user/me Get user information by token
 
-Admin routes (optional)
+### Admin routes (optional)
 Get All candidates
 Get candidate details by id (with applied jobs)
 Get All hiring managers
 Update user role to hiring manager
 
-More optional routes
+### More optional routes
 Top 10 highest paid jobs
 Top 5 most applied jobs
 
-MUST DOs
+### MUST DOs
 Must Create an advisor account with this credentials:
 Email: admin@gmail.com
 Password: Admin123#
@@ -58,5 +58,5 @@ Route names must be as it is given in the task
 Must check if the signup and login is working correctly, otherwise the examiner won’t be able to check and don’t make it complicated
 Use a Mongo Atlas db and create some jobs beforehand, so that the examiner can check easily
 
-Tips
+### Tips
 Think About what schemas you need. You can create a separate schema with candidate info,job info, apply info(e.g. Apply date, resume link) if you prefer.
