@@ -58,7 +58,7 @@ GET /user/me
 - Top 5 most applied jobs
 
 ### MUST DOs
-##### Must Create an advisor account with this credentials:
+#### Must Create an advisor account with this credentials:
 - Email: admin@gmail.com
 - Password: Admin123#
 - Route names must be as it is given in the task
