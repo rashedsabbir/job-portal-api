@@ -15,7 +15,7 @@ Created a job portal with the following requirements:
 <ol>
 <li><b>POST</b> /jobs Create A Job
 </li>
-<li><b>GET</b> /manager/jobs Get all jobs of this hiring manager
+<li><b>GET</b> /manager/jobs<br>Get all jobs of this hiring manager
 Verify the token and get the manager id from there to load manager specific jobs</li>
 <li><b>GET</b> /manager/jobs/:id Get a job details by id (with applied candidates information and resume if any)
 Authorize the route to check if this job is created by the hiring manager who is trying to see the job details (optional)</li>
