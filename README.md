@@ -30,7 +30,6 @@ Authorize the route to check if this job is created by the hiring manager who is
 - Authorize the route to check if this job is created by the hiring manager who is trying to see the job details (optional)</li>
 <li><b>PATCH</b> /jobs/:id 
 - Update a job</li>
->>>>>>> c354a3abc20c1b17aa3fee74c2aa33f2809ba5a7
 </ol>
 
 ### Candidate routes
