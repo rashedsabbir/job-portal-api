@@ -22,6 +22,7 @@ Verify the token and get the manager id from there to load manager specific jobs
 Authorize the route to check if this job is created by the hiring manager who is trying to see the job details (optional)</li>
 <li><b>PATCH</b> /jobs/:id Update a job</li>
 
+
 <li><b>GET</b> /manager/jobs 
 - Get all jobs of this hiring manager
 - Verify the token and get the manager id from there to load manager specific jobs</li>
