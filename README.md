@@ -1,5 +1,5 @@
 # Job Portal API                                                                                                                                                    
-     
+      
 Created a job portal with the following requirements
 
 #### Roles
